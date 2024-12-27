@@ -14,6 +14,16 @@ pids
 # Node modules
 node_modules/
 
+# Angular specific
+.angular/
+.angular-cache/
+.angular-cli.json
+*.ngsummary.json
+*.ngfactory.ts
+*.ngstyle.ts
+*.css.ts
+*.scss.ts
+
 # TypeScript
 *.tsbuildinfo
 
@@ -21,6 +31,12 @@ node_modules/
 dist/
 build/
 out/
+
+# Compiled CSS and JS
+*.js
+*.js.map
+*.css
+*.css.map
 
 # Environment variables
 .env
@@ -43,6 +59,10 @@ coverage/
 tmp/
 temp/
 
+# Firebase hosting
+firebase-debug.log
+firebase-debug.*
+
 # Package manager lock files (optional)
 # Uncomment if you don’t want to commit lock files
 # package-lock.json
@@ -51,3 +71,6 @@ temp/
 # Other config files
 .eslintcache
 .nyc_output
+
+# Protractor end-to-end tests
+e2e/
