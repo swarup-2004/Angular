@@ -30,3 +30,6 @@ department = 10;
 department = "ram";
 // void -> when the function doesn't return anything
 // never
+
+
+console.log(this);
