@@ -5,6 +5,7 @@
     @for (user of users; track user.id) {
       <li>
         <app-user 
+        [selected]="user.id === selectedUser?.id"
         [id]="user.id" 
         [avatar]="user.avatar" 
         [name]="user.name"
